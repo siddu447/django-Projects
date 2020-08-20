@@ -1,0 +1,9 @@
+    1  vagrant ssh
+   10  cd /vagrant/
+   11  touch doc.txt
+   12  python demo.py
+   16  cd /vagrant/
+   19  python -m venv ~/env
+   21  source ~/env/bin/activate
+   22  pip install -r require.txt
+   23  history > doc.txt
